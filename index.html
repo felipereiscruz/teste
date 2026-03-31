@@ -1183,7 +1183,7 @@
       color: var(--text3);
     }
 
-    #screen-login { display: flex; align-items: flex-start; justify-content: center; height: 100%; padding: 80px 24px 24px; background: #f0f0ef; position: relative; overflow: auto; overscroll-behavior: none; }
+    #screen-login { display: flex; align-items: flex-start; justify-content: center; height: var(--app-height, 100dvh); max-height: var(--app-height, 100dvh); padding: 80px 24px 24px; background: #f0f0ef; position: relative; overflow: hidden; overscroll-behavior: none; }
 
     #login-bg-canvas {
       position: absolute;
